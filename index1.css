@@ -93,6 +93,12 @@ h2{
     display: block; /* Uklanja dodatni prostor ispod slike */
 }
 
+.slike img {
+    width: 100%;
+    height: auto; /* Ovo održava odnos širine i visine slike */
+    display: block; /* Uklanja dodatni prostor ispod slike */
+}
+
 .slike {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -111,6 +117,7 @@ h2{
         margin-top: 2%;
         margin-bottom: 2%;
     }
+}
 }
     
 .kontakt{
